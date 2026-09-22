@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Coding Tools Tier List</title>
+  <meta name="description" content="Interactive drag-and-drop tier list for AI coding tools." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="header-text">
+        <h1>AI Coding Tools Tier List</h1>
+        <p class="subtitle">Drag tools between tiers. Layout saves in your browser.</p>
+      </div>
+      <div class="actions">
+        <button type="button" id="btn-reset" class="btn">Reset</button>
+        <button type="button" id="btn-export" class="btn btn-primary">Export JSON</button>
+      </div>
+    </header>
+
+    <main class="board" id="board">
+      <!-- tiers injected by app.js -->
+    </main>
+
+    <section class="pool-section">
+      <div class="pool-header">
+        <h2>Unranked</h2>
+        <span class="pool-hint">Drop tools here to unrank</span>
+      </div>
+      <div class="tier-row pool-row">
+        <div class="tier-drop pool" id="pool" data-tier="pool"></div>
+      </div>
+    </section>
+  </div>
+
+  <script src="vendor/Sortable.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
