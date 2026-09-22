@@ -33,7 +33,7 @@ Icons are local copies under `assets/icons/` (no CDN hotlinks).
 | Tool | Source |
 |------|--------|
 | Factory Droid | Official Factory.ai mark (`factory-droid.svg` rendered to PNG) |
-| Zed, Warp, GitHub Copilot | [Simple Icons](https://simpleicons.org/) (rendered to PNG) |
+| Zed, Cursor, Warp, GitHub Copilot | [Simple Icons](https://simpleicons.org/) (rendered to PNG) |
 | Cline | Official icon from [cline/cline](https://github.com/cline/cline) |
 | Capy | Official apple-touch icon from [capy.ai](https://capy.ai) |
 
@@ -46,7 +46,6 @@ These were cropped from `docs/reference/reference-tierlist.png` when a clean off
 - fx
 - Codex
 - Opencode (2)
-- Cursor
 - Amp
 - Devin
 - Claude Code
